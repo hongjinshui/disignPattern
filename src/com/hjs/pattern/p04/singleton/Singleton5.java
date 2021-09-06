@@ -1,4 +1,4 @@
-package com.hjs.pattern.p4.singleton;
+package com.hjs.pattern.p04.singleton;
 /**
  *    登记式/静态内部类
  * 多线程安全，这种方式能达到双检锁方式一样的功效，但实现更简单。对静态域使用延迟初始化，应使用这种方式而不是双检锁方式。

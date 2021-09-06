@@ -1,4 +1,4 @@
-package com.hjs.pattern.p1.simple_factory;
+package com.hjs.pattern.p01.simple_factory;
 
 /**
  *        简单工厂模式不是23种里的一种，简而言之，就是有一个专门生产某个产品的类。 

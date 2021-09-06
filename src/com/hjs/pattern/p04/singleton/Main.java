@@ -1,4 +1,4 @@
-package com.hjs.pattern.p4.singleton;
+package com.hjs.pattern.p04.singleton;
 
 public class Main {
 

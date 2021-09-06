@@ -1,4 +1,4 @@
-package com.hjs.pattern.p4.singleton;
+package com.hjs.pattern.p04.singleton;
 /**
  *   饿汉式
  *   多线程安全,这种方式比较常用，但容易产生垃圾对象,类加载时就初始化，浪费内存

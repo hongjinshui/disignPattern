@@ -1,4 +1,4 @@
-package com.hjs.pattern.p4.singleton;
+package com.hjs.pattern.p04.singleton;
 /**
  *   枚举
  * 多线程安全

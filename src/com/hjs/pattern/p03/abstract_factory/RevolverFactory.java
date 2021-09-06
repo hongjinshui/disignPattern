@@ -1,4 +1,4 @@
-package com.hjs.pattern.p3.abstract_factory;
+package com.hjs.pattern.p03.abstract_factory;
 
 public class RevolverFactory extends WeaponFactory{
 

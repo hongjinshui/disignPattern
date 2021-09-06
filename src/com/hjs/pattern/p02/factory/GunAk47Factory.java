@@ -1,4 +1,4 @@
-package com.hjs.pattern.p2.factory;
+package com.hjs.pattern.p02.factory;
 
 public class GunAk47Factory extends GunFactory{
 

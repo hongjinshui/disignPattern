@@ -1,4 +1,4 @@
-package com.hjs.pattern.p1.simple_factory;
+package com.hjs.pattern.p01.simple_factory;
 
 public interface Gun {
 

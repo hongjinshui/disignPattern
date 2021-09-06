@@ -1,4 +1,4 @@
-package com.hjs.pattern.p6.prototype;
+package com.hjs.pattern.p06.prototype;
 
 public class ConcretePrototype implements Prototype{
 

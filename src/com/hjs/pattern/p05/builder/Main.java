@@ -1,4 +1,4 @@
-package com.hjs.pattern.p5.builder;
+package com.hjs.pattern.p05.builder;
 
 public class Main {
 

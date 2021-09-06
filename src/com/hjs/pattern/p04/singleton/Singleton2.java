@@ -1,4 +1,4 @@
-package com.hjs.pattern.p4.singleton;
+package com.hjs.pattern.p04.singleton;
 /**
  *    懒汉式，线程安全
  *    这种方式具备很好的 lazy loading，能够在多线程中很好的工作，但是，效率很低，99% 情况下不需要同步
