@@ -24,7 +24,7 @@ public class MainStatic {
 	 *
 	 */
 	public static void main(String[] args) {
-		Calculator calculatorProxy = new CalculatorProxy(new CalculatorImpl());
+		Calculator calculatorProxy = new CalculatorProxy();
 		calculatorProxy.add(1, 2);
 		calculatorProxy.subtract(2,1);
 	}

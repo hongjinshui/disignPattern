@@ -6,10 +6,10 @@ package com.hjs.pattern.p04.singleton;
  *
  */
 public class Singleton4 {
-    private volatile static Singleton4 singleton;  
+    private volatile static Singleton4 singleton; // volatile可防止指令重排序，防止多线程下获取到半初始化的对象
     private Singleton4 (){}  
     public static Singleton4 getInstance() {  
-    if (singleton == null) {  
+    if (singleton == null) { // 如果为空，加锁创建对象，在多线程下可能有多个线程通过为空判断，所以在加锁后再次进行为空判断，防止创建多个对象
         synchronized (Singleton4.class) {  
         if (singleton == null) {  
             singleton = new Singleton4();  

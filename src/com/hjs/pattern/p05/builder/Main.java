@@ -31,6 +31,12 @@ public class Main {
                 .setKeyboard("罗技")
                 .setUsbCount(2)
                 .build();
+		Computer2 computer2 = Computer2.builder("因特尔","三星")
+				.setDisplay("三星24寸")
+				.setKeyboard("罗技")
+				.setUsbCount(2)
+				.build();
 		System.out.println(computer);
+		System.out.println(computer2);
 	}
 }

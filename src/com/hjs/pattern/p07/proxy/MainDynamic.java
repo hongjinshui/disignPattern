@@ -30,8 +30,8 @@ public class MainDynamic {
 	public static void main(String[] args) throws Exception {
 		Calculator target = new CalculatorImpl();
 		//Calculator calculatorProxy = (Calculator) getProxy(target);
-		ProxyHandler hander = new ProxyHandler();
-		Calculator calculatorProxy = (Calculator)hander.newProxyInstance(target);
+		ProxyHandler handler = new ProxyHandler();
+		Calculator calculatorProxy = (Calculator)handler.newProxyInstance(target);
 		calculatorProxy.add(1,2);
 		calculatorProxy.subtract(2,1);
 	}

@@ -3,8 +3,8 @@ package com.hjs.pattern.p07.proxy;
 public class CalculatorProxy implements Calculator{
 
 	private Calculator calculator;
-	public CalculatorProxy(Calculator calculator) {
-		this.calculator = calculator;
+	public CalculatorProxy() {
+		this.calculator = new CalculatorImpl();
 	}
 	
 	@Override
